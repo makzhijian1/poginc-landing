@@ -1,0 +1,42 @@
+.main {
+    height: 100%;
+
+}
+
+.title_container {
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.p_title {
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.p_desc_header {
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 300;
+
+}
+
+.p_desc_details {
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: 100;
+
+}
+
+
+.description_container {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+

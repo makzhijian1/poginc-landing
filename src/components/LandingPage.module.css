@@ -1,0 +1,102 @@
+.main_container {
+    width: 100%;
+    height: 95vh;
+    /*background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/98a8762c-4cfe-430f-a775-75255862ad49/ddahpfq-b93478de-bfc3-4712-9482-0388f9192fdd.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk4YTg3NjJjLTRjZmUtNDMwZi1hNzc1LTc1MjU1ODYyYWQ0OVwvZGRhaHBmcS1iOTM0NzhkZS1iZmMzLTQ3MTItOTQ4Mi0wMzg4ZjkxOTJmZGQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3i0bgZi98hx4kKiZQ0vSIwqc5u74XAQv0e4nXjs2_c0");
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header_row {
+    content: "";
+    display: flex;
+    clear: both;
+    width: 100%;
+}
+
+.header_options_col {
+    float: left;
+    width: 20.00%;
+    display: flex;
+
+
+}
+
+.header_options {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Y Axis - Up to Down. Remove this to see the diff */
+    justify-content: center; /* X Axis - Left to Right. Remove this to see the diff */
+}
+
+button {
+    width: 100%;
+    height: 30%;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    line-height: 16px;
+    font-weight: 100;
+    font-family: monospace;
+    text-transform: uppercase;
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Code for the animation of the text underline transition : START*/
+.menu_span {
+    position: relative;
+    color: #666666;
+    text-decoration: none;
+}
+
+.menu_span:hover {
+    color: #000;
+    font-weight: 600;
+}
+
+
+.menu_span::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 1.5s ease;
+}
+
+.menu_span:hover::before {
+    transform: scaleX(1);
+}
+/* Code for the animation of the text underline transition : END */
+
+.header_icon_col {
+    float: left;
+    width: 19.00%;
+    display: flex;
+    align-items: center;
+}
+
+.icon1_container {
+    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+}
+
+.content_container {
+    margin-top: 2.5%;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+

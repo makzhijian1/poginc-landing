@@ -1,0 +1,12 @@
+.main {
+    width: 100%;
+    display: flex;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 20.00%;
+    display: flex;
+    justify-content: center;
+}
