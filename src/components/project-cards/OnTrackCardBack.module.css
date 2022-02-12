@@ -4,14 +4,14 @@
 
 .p_desc_header {
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     font-weight: 300;
 
 }
 
 .p_desc_details {
     font-family: monospace;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-weight: 100;
     padding-left: 2%;
     padding-right: 2%;

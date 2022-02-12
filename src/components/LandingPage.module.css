@@ -12,6 +12,7 @@
     content: "";
     display: flex;
     clear: both;
+    height: max-content;
     width: 100%;
 }
 
@@ -19,8 +20,6 @@
     float: left;
     width: 20.00%;
     display: flex;
-
-
 }
 
 .header_options {
@@ -93,9 +92,8 @@ button {
 }
 
 .content_container {
-    margin-top: 2.5%;
     width: 100%;
-    height: max-content;
+    height: 75%;
     display: flex;
     justify-content: center;
 }

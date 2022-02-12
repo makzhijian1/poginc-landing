@@ -1,4 +1,5 @@
 import classes from './OnTrackCardFront.module.css'
+import OnTrackPogLogo from '../../images/OnTrack_PogLogo.png'
 
 function OnTrackCardFront() {
     return (
@@ -7,6 +8,9 @@ function OnTrackCardFront() {
                 <span>
                     <p className={classes.p_title}>OnTrack</p>
                     </span>
+            </div>
+            <div className={classes.logo_container}>
+                <img src={OnTrackPogLogo} className={classes.image_container}/>
             </div>
             <div className={classes.description_container}>
                 <span>
